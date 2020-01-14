@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 12px;
+  color: var(--text-color-dark);
+}
+
+html, body {
+  background-color: var(--grey-050);
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+span {
+  font-weight: inherit;
+  color: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: inherit;
+}
+
+h2 {
+  font-size: 24px;
+  color: inherit;
+}
+
+h3 {
+  font-size: 20px;
+  color: inherit;
+}
+
+h4 {
+  font-size: 18px;
+  color: inherit;
+}
+
+h5 {
+  font-size: 16px;
+  color: inherit;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: inherit;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.clearfix {
+  overflow: hidden;
+}

@@ -1,7 +1,15 @@
 import React from 'react';
 
-const StoreProvider = () => {
+interface Props {
+  children?: React.ReactNode
+}
 
+const StoreProvider = ({ children }: Props) => {
+  return (
+    <>
+      { children }
+    </>
+  );
 }
 
 export default StoreProvider;
